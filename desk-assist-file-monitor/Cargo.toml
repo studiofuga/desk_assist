@@ -1,0 +1,10 @@
+[package]
+name = "desk-assist-file-monitor"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "desk-assist-file-monitor"
+path = "src/main.rs"
+
+[dependencies]
